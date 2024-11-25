@@ -1,1 +1,27 @@
-*{margin:0}.head{background-color:#4169e1;color:#fff;padding:1%;margin-bottom:1vh}.head a{text-decoration:none;color:#fff;padding:2% 5%;font-size:30px}.card{padding:2%;background-color:#e0ffff;margin-bottom:1vh}.card ul{display:flex;gap:20px}.card ul li{list-style:none;padding:.5% 5%;background-color:#4169e1}.card ul li:hover{background-color:#e0ffff;border:2px solid black}.card ul li a{text-decoration:none;font-size:1.2rem;color:#fff}.card ul li a:hover{color:#000}.card input{padding:.5% 5%;font-size:1.2rem}.card1{width:30%;height:30vh;background-color:#e0ffff;margin:10vh auto;padding:1% 3%;border:2px solid darkblue}.card1 h1{text-align:center}.card1 input{padding:4% 13%;margin:6% 19%}.card1 button{padding:2% 5%;margin:5% 45%}.box{margin:10vh auto;width:30%;height:30vh;background-color:#e0ffff;border:2px solid darkblue;border-radius:10px;padding:2%}.box p{padding:2%;font-size:20px}.box ul{padding:1%}.box ul li{font-size:1.2rem;list-style:none}.box ul li:hover{border:1px rgb(27,27,253) solid}.box ul li a{text-decoration:none;color:#000}.box ul li a:hover{color:#00008b}
+*{margin:0}.head{background-color:#4169e1;color:#fff;padding:1%;margin-bottom:1vh}.head a{text-decoration:none;color:#fff;padding:2% 5%;font-size:30px}.card{padding:2%;background-color:#e0ffff;margin-bottom:1vh}.card ul{display:flex;gap:20px}.card ul li{list-style:none;padding:.5% 5%;background-color:#4169e1}.card ul li:hover{background-color:#e0ffff;border:2px solid black}.card ul li a{text-decoration:none;font-size:1.2rem;color:#fff}.card ul li a:hover{color:#000}.card input{padding:.5% 5%;font-size:1.2rem}.card1{width:30%;height:30vh;background-color:#e0ffff;margin:10vh auto;padding:1% 3%;border:2px solid darkblue}.card1 h1{text-align:center}.card1 input{padding:4% 13%;margin:6% 19%}.card1 button{padding:2% 5%;margin:5% 45%}.box{margin:10vh auto;width:30%;height:30vh;background-color:#e0ffff;border:2px solid darkblue;border-radius:10px;padding:2%}.box p{padding:2%;font-size:20px}.box ul{padding:1%}.box ul li{font-size:1.2rem;list-style:none}.box ul li:hover{border:1px rgb(27,27,253) solid}.box ul li a{text-decoration:none;color:#000}.box ul li a:hover{color:#00008b} @media(max-width:1280px){
+      .card1{
+             width: 40%;
+             height: 40vh;
+      }
+      .box{
+        width: 40%;
+        height: 40vh;
+      }
+}
+
+@media(max-width:1080px) {
+     .card1{
+       width: 49.5%;
+       height: 40vh;
+     }
+     .box{
+      width: 49.5%;
+      height: 40vh;
+     }
+}
+@media(max-width: 750px) {
+     .card1,.box{
+      width: 80%;
+      height: 40vh;
+     }
+}
